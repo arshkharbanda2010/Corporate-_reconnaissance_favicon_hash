@@ -4,8 +4,9 @@
 import mmh3
 
 import requests
- 
-response = requests.get('https://www.washington.edu/favicon.ico')
+
+##REPLACE websiste with favicon url of the website
+response = requests.get('https://website/favicon.ico')
 
 favicon = response.content.encode('base64')
 
